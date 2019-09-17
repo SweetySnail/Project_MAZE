@@ -1,0 +1,35 @@
+﻿  Graph.cpp
+d:\과제\c언어\project3\project3\graph.cpp(306): warning C4101: 'scost' :참조되지 않은 지역 변수입니다.
+d:\과제\c언어\project3\project3\minheap.h(55): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  d:\과제\c언어\project3\project3\minheap.h(53): note: 클래스 템플릿 멤버 함수 'void MinHeap<int,int>::DecKey(TValue,TKey)'을(를) 컴파일하고 있습니다.
+          with
+          [
+              TValue=int,
+              TKey=int
+          ]
+  d:\과제\c언어\project3\project3\graph.cpp(368): note: 컴파일 중인 함수 템플릿 인스턴스화 'void MinHeap<int,int>::DecKey(TValue,TKey)'에 대한 참조를 확인하십시오.
+          with
+          [
+              TValue=int,
+              TKey=int
+          ]
+  d:\과제\c언어\project3\project3\graph.cpp(302): note: 컴파일 중인 클래스 템플릿 인스턴스화 'MinHeap<int,int>'에 대한 참조를 확인하십시오.
+d:\과제\c언어\project3\project3\minheap.h(36): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  d:\과제\c언어\project3\project3\minheap.h(35): note: 클래스 템플릿 멤버 함수 'std::pair<TKey,TValue> MinHeap<TKey,TValue>::Get(TValue)'을(를) 컴파일하고 있습니다.
+          with
+          [
+              TKey=int,
+              TValue=int
+          ]
+  d:\과제\c언어\project3\project3\graph.cpp(362): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<TKey,TValue> MinHeap<TKey,TValue>::Get(TValue)'에 대한 참조를 확인하십시오.
+          with
+          [
+              TKey=int,
+              TValue=int
+          ]
+d:\과제\c언어\project3\project3\minheap.h(111): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  d:\과제\c언어\project3\project3\minheap.h(83): note: 클래스 템플릿 멤버 함수 'void MinHeap<int,int>::Heapify(int)'을(를) 컴파일하고 있습니다.
+  d:\과제\c언어\project3\project3\minheap.h(23): note: 컴파일 중인 함수 템플릿 인스턴스화 'void MinHeap<int,int>::Heapify(int)'에 대한 참조를 확인하십시오.
+d:\과제\c언어\project3\project3\minheap.h(113): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Project3.vcxproj -> D:\과제\C언어\Project3\Debug\Project3.exe
+  Project3.vcxproj -> D:\과제\C언어\Project3\Debug\Project3.pdb (Full PDB)
